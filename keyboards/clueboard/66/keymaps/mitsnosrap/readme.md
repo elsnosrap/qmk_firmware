@@ -1,0 +1,3 @@
+This is a modified version of the Mac keyboard layout.
+
+TODO: Put it more details here about what I changed...
