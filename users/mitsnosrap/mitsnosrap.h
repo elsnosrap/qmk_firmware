@@ -37,6 +37,7 @@ enum custom_keycodes {
     M_GCDEV,                // git checkout develop
     M_GD,                   // gd - a.k.a. git diff
     M_GDC,                  // gdc - a.k.a. git diff for staged files
+    M_ALDL,                 // adb shell am start -a android.intent.action.VIEW -d " - e.g. launch a deep link
     M_ZMUTE,                // Command + Shift + A - e.g. toggle mute in Zoom
     M_ZVID,                 // Command + Shift + V - e.g. toggle video in Zoom
     NEW_SAFE_RANGE
