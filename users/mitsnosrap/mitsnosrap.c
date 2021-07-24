@@ -89,14 +89,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 SEND_STRING("gitlog" SS_TAP(X_ENTER));
                 break;
 
-            case M_GPGPW:
-                SEND_STRING(GPG_PASSWORD);
-                break;
-
-            case M_PGPG:
-                SEND_STRING(PERSONAL_GPG_PASSWORD);
-                break;
-
             case M_CLLOG:
                 SEND_STRING(SS_DOWN(X_LCTRL)SS_TAP(X_C)SS_UP(X_LCTRL)"exit" SS_TAP(X_ENTER));
                 wait_ms(1000);
@@ -121,14 +113,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
             case M_GCDEV:
                 SEND_STRING("git checkout develop" SS_TAP(X_ENTER));
-                break;
-
-            case M_GD:
-                SEND_STRING("gd" SS_TAP(X_ENTER));
-                break;
-
-            case M_GDC:
-                SEND_STRING("gdc" SS_TAP(X_ENTER));
                 break;
 
             case M_ALDL:
