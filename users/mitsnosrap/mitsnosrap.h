@@ -33,6 +33,7 @@ enum custom_keycodes {
     M_AORLS,                // aws s3 ls BUILD_REPORTS
     M_GCDEV,                // git checkout develop
     M_ALDL,                 // adb shell am start -a android.intent.action.VIEW -d " - e.g. launch a deep link
+    M_ALDP,                 // adb shell am start -a android.intent.action.view -d "http://play.google.com/store/apps/details?id=
     M_ZMUTE,                // Command + Shift + A - e.g. toggle mute in Zoom
     M_ZVID,                 // Command + Shift + V - e.g. toggle video in Zoom
     NEW_SAFE_RANGE

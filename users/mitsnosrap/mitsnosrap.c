@@ -119,6 +119,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 SEND_STRING("adb shell am start -a android.intent.action.VIEW -d \"");
                 break;
 
+            case M_ALDP:
+                SEND_STRING("adb shell am start -a android.intent.action.VIEW -d \"http://play.google.com/store/apps/details?id=");
+                break;
+
             case M_ZMUTE:
                 SEND_STRING(SS_DOWN(X_LGUI)SS_LSFT("a")SS_UP(X_LGUI));
                 break;
