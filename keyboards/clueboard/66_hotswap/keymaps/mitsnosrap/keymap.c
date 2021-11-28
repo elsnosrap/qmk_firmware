@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,     KC_T,     KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS, KC_DEL,  \
   KC_GESC, KC_A,    KC_S,    KC_D,    KC_F,     KC_G,     KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,                    \
   KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,     KC_B,     KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,          KC_UP,            \
-  KC_LCTL, KC_LALT, KC_LGUI,          KC_SPC,   KC_SPC,                     _______, KC_RCTL, MO(_FL), MO(_FL), KC_LEFT, KC_DOWN, KC_RGHT),
+  KC_LCTL, KC_LALT, KC_LGUI,          KC_SPC,   KC_SPC,                     _______, MO(_FL), MO(_FL), MO(_FL), KC_LEFT, KC_DOWN, KC_RGHT),
 
   /* Keymap _FL: Function Layer
    */
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,    KC_F5,    KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_PGUP, \
   _______, M_GSTAT, M_GBRAN, M_GLOG,  M_GPULL,  M_GPRUN,  M_GCDEV, _______, _______, M_GDIFF, KC_MPLY, KC_MRWD, KC_MFFD, KC_MUTE, KC_PGDN, \
   KC_CAPS, M_GSLIS, M_GSSHO, M_GSAPL, M_GSDRO,  M_GSPUS,  M_GSPOP, _______, _______, _______, _______, M_CLLOG, _______,                   \
-  _______, M_ACFER, M_ACPRE, M_ACPAR, M_ALDL,   _______,  _______, _______, _______, _______, _______, _______,          KC_VOLU,          \
+  _______, M_ACFER, M_ACPRE, M_ACPAR, M_ALDL,   _______,  _______, _______, KC_F14,  KC_F15,  _______, _______,          KC_VOLU,          \
   _______, _______, _______,          _______,  _______,                    _______, _______, MO(_CL), MO(_FL), KC_HOME, KC_VOLD, KC_END),
 
   /* Keymap _CL: Control layer

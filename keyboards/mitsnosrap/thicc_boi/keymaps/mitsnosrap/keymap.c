@@ -33,8 +33,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______,          _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______, _______,
         _______,          M_GSTAT, M_GBRAN, M_GLOG,  M_GPULL, M_GPRUN, M_GCDEV, _______, _______, M_GDIFF, KC_MPLY, KC_MRWD, KC_MFFD, KC_MUTE, _______,
-        _______,          M_GSLIS, M_GSSHO, M_GSAPL, M_GSDRO, M_GSPUS, M_GSPOP, _______, _______, _______, _______, M_CLLOG, _______,          KC_F15,
-                 _______, M_ACFER, M_ACPRE, M_ACPAR, M_ALDL,  _______, _______, _______, _______, _______, _______,          _______, KC_VOLU, KC_F14,
+        _______,          M_GSLIS, M_GSSHO, M_GSAPL, M_GSDRO, M_GSPUS, M_GSPOP, _______, _______, _______, _______, M_CLLOG, _______,          _______,
+                 _______, M_ACFER, M_ACPRE, M_ACPAR, M_ALDL,  M_ALDP,  _______, _______, KC_F14,  KC_F15,  _______,          _______, KC_VOLU, _______,
         _______, _______,          _______,                            _______,                            _______,          KC_HOME, KC_VOLD, KC_END),
 };
 
