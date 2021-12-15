@@ -36,6 +36,7 @@ enum custom_keycodes {
     M_ALDP,                 // adb shell am start -a android.intent.action.view -d "http://play.google.com/store/apps/details?id=
     M_ZMUTE,                // Command + Shift + A - e.g. toggle mute in Zoom
     M_ZVID,                 // Command + Shift + V - e.g. toggle video in Zoom
+    M_ALFR,                 // Alt + Space - to trigger Alfred
     NEW_SAFE_RANGE
 };
 

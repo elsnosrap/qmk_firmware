@@ -38,7 +38,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 break;
 
            case M_GDIFF:
-                SEND_STRING("git difftool --dir-diff "SS_DOWN(X_LGUI)SS_TAP(X_V)SS_UP(X_LGUI)"^.."SS_DOWN(X_LGUI)SS_TAP(X_V)SS_UP(X_LGUI) SS_TAP(X_ENTER));
+                // Following was used when I used Meld for my diff tool (required the --dir-diff) flag
+                //SEND_STRING("git difftool --dir-diff "SS_DOWN(X_LGUI)SS_TAP(X_V)SS_UP(X_LGUI)"^.."SS_DOWN(X_LGUI)SS_TAP(X_V)SS_UP(X_LGUI) SS_TAP(X_ENTER));
+
+                // Following is used when using Kaleidoscope (does NOT require --dir-diff flag)
+                SEND_STRING("git difftool "SS_DOWN(X_LGUI)SS_TAP(X_V)SS_UP(X_LGUI)"^.."SS_DOWN(X_LGUI)SS_TAP(X_V)SS_UP(X_LGUI) SS_TAP(X_ENTER));
                 break;
 
             case M_GSLIS:
@@ -129,6 +133,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
             case M_ZVID:
                 SEND_STRING(SS_DOWN(X_LGUI)SS_LSFT("v")SS_UP(X_LGUI));
+                break;
+
+            case M_ALFR:
+                SEND_STRING(SS_DOWN(X_LALT)SS_TAP(X_SPC)SS_UP(X_LALT));
                 break;
         }
     }
