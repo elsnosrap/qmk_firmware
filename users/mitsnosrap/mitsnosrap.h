@@ -37,6 +37,7 @@ enum custom_keycodes {
     M_ZMUTE,                // Command + Shift + A - e.g. toggle mute in Zoom
     M_ZVID,                 // Command + Shift + V - e.g. toggle video in Zoom
     M_ALFR,                 // Alt + Space - to trigger Alfred
+    M_EMOJ,                 // Command + Control + Space - triggers Mac emoji keyboard
     NEW_SAFE_RANGE
 };
 

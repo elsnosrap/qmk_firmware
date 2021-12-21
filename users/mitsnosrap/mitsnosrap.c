@@ -138,6 +138,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             case M_ALFR:
                 SEND_STRING(SS_DOWN(X_LALT)SS_TAP(X_SPC)SS_UP(X_LALT));
                 break;
+
+            case M_EMOJ:
+                SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LCTL)SS_TAP(X_SPC)SS_UP(X_LCTL)SS_UP(X_LGUI));
+                break;
         }
     }
     return process_record_keymap(keycode, record);
