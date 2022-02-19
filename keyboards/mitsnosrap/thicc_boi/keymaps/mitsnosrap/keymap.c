@@ -22,12 +22,6 @@
 #define _FN2 2
 #define _FN_EMPTY 99
 
-// Alternate definitions for longer codes
-#define FN1_N LT(_FN1, KC_N)
-#define FN2_V LT(_FN2, KC_V)
-#define FN2_C LT(_FN2, KC_C)
-#define CTRL_M MT(MOD_LCTL, KC_M)
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BL] = LAYOUT(
         KC_CAPS, KC_F1,   KC_F2,   KC_F3,   KC_F4,            KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  M_ZVID,  M_ZMUTE,

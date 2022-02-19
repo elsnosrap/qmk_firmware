@@ -7,6 +7,13 @@
 #include "action.h"
 #include "version.h"
 
+// Alternate definitions for longer codes
+#define FN1_N LT(_FN1, KC_N)
+#define FN2_V LT(_FN2, KC_V)
+#define FN2_C LT(_FN2, KC_C)
+#define FN3_F LT(_FN3, KC_F)
+#define CTRL_M MT(MOD_LCTL, KC_M)
+
 // Custom keycodes for macros
 enum custom_keycodes {
     M_GSTAT= SAFE_RANGE,    // git status

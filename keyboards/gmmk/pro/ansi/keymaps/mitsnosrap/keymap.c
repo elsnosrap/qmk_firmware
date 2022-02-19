@@ -24,13 +24,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define _FN3 3
 #define _FN_EMPTY 9
 
-// Alternate definitions for longer codes
-#define FN1_N LT(_FN1, KC_N)
-#define FN2_V LT(_FN2, KC_V)
-#define FN2_C LT(_FN2, KC_C)
-#define FN3_F LT(_FN3, KC_F)
-#define CTRL_M MT(MOD_LCTL, KC_M)
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BL] = LAYOUT(
         M_ZMUTE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,  KC_F12,  M_ZVID,           KC_MUTE,
