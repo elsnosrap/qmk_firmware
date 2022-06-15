@@ -94,13 +94,13 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 break;
 
             case M_CLLOG:
-                SEND_STRING(SS_DOWN(X_LCTRL)SS_TAP(X_C)SS_UP(X_LCTRL)"exit" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LEFT_CTRL)SS_TAP(X_C)SS_UP(X_LEFT_CTRL)"exit" SS_TAP(X_ENTER));
                 wait_ms(1000);
-                SEND_STRING(SS_DOWN(X_LCTRL)SS_TAP(X_C)SS_UP(X_LCTRL)"exit" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LEFT_CTRL)SS_TAP(X_C)SS_UP(X_LEFT_CTRL)"exit" SS_TAP(X_ENTER));
                 wait_ms(1000);
-                SEND_STRING(SS_DOWN(X_LCTRL)SS_TAP(X_C)SS_UP(X_LCTRL)"exit" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LEFT_CTRL)SS_TAP(X_C)SS_UP(X_LEFT_CTRL)"exit" SS_TAP(X_ENTER));
                 wait_ms(1000);
-                SEND_STRING(SS_DOWN(X_LCTRL)SS_TAP(X_C)SS_UP(X_LCTRL)"exit" SS_TAP(X_ENTER));
+                SEND_STRING(SS_DOWN(X_LEFT_CTRL)SS_TAP(X_C)SS_UP(X_LEFT_CTRL)"exit" SS_TAP(X_ENTER));
                 break;
 
             case M_AOTLS:
@@ -140,7 +140,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 break;
 
             case M_EMOJ:
-                SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LCTL)SS_TAP(X_SPC)SS_UP(X_LCTL)SS_UP(X_LGUI));
+                SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LEFT_CTL)SS_TAP(X_SPC)SS_UP(X_LEFT_CTL)SS_UP(X_LGUI));
                 break;
         }
     }
