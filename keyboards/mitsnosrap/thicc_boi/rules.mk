@@ -1,6 +1,10 @@
 # MCU name
 # MCU = atmega32u4
 MCU = STM32F303
+BOARD = QMK_PROTON_C
+
+# Bootloader selection
+BOOTLOADER = stm32-dfu
 
 # Build Options
 #   change yes to no to disable
