@@ -46,6 +46,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Avoid out-of-bounds errors when SmartEEPROM is not enabled */
 #define EEPROM_SIZE 1024
 
+/* Set slightly longer tap term setting */
+#define TAPPING_TERM 250
+
 /* MCU Port name definitions */
 #define PA 0
 #define PB 1

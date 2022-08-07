@@ -66,6 +66,7 @@ CMakeLists.txt
 .vscode/tasks.json
 .vscode/temp.sql
 tags
+mdloader
 
 # Ignore image/font files
 *.gif
