@@ -27,6 +27,9 @@
 
 #define DIODE_DIRECTION COL2ROW
 
+/* Set slightly longer tap term */
+#define TAPPING_TERM 250
+
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
